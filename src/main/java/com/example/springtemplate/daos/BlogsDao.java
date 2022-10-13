@@ -18,8 +18,8 @@ public class BlogsDao {
     static final String CONFIG = "serverTimezone=UTC";
     static final String DB_URL =
             "jdbc:mysql://"+HOST+"/"+SCHEMA+"?"+CONFIG;
-    static final String USER = "cs3200";
-    static final String PASS = "cs3200";
+    static final String USER = "root";
+    static final String PASS = "12345678";
 
 
     @GetMapping("/create/blog")
